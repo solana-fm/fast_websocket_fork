@@ -16,7 +16,7 @@ name = "wss_client"
 path = "examples/wss_client.rs"
 
 [dependencies]
-fastwebsockets = { version = "0.6", features = ["simd", "upgrade"] }
+fastwebsockets = { version = "0.8", features = ["simd", "upgrade"] }
 http-body-util = "0"
 hyper = "1"
 hyper-util = "0"
